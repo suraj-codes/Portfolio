@@ -1,6 +1,7 @@
 .education-card {
   display: flex;
   flex-direction: row;
+  align-items: center;
 }
 
 .education-card:hover + .education-card-border {
@@ -10,6 +11,10 @@
   -moz-transition: width 0.6s ease-in-out;
   -o-transition: width 0.6s ease-in-out;
   transition: width 0.6s ease-in-out;
+}
+
+.education-card-left > img{
+  max-width: 150px;
 }
 
 .education-card-border {

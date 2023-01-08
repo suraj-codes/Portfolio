@@ -10,27 +10,28 @@ const illustration = {
 
 const greeting = {
   username: "Suraj Deshmane",
-  title: "Hii, I'm Suraj",
+  title: "Hi, I'm Suraj",
   subTitle: emoji(
     "A passionate Full Stack Software Developer 🚀 having an experience of designing and building Web and Mobile applications with JavaScript / Reactjs / Nodejs and some other cool libraries and frameworks."
   ),
   resumeLink:
-    "https://drive.google.com/file/d/1lJTZJskkKbCoCiiMdFGq2sHmShx73tib/view",
+    // "https://drive.google.com/file/d/1lJTZJskkKbCoCiiMdFGq2sHmShx73tib/view",
+    "https://drive.google.com/file/d/1FpHo06Hc4X5QQ9aSnGRre6CRN9ZEiyx_/view?usp=share_link",
   displayGreeting: true, // Set false to hide this section, defaults to true
 };
 
 // Social Media Links
 
 const socialMediaLinks = {
-  github: "https://github.com/Suraj51",
+  github: "https://github.com/suraj-codes",
   // linkedin: "https://www.linkedin.com/in/",
-  gmail: "surajdeshmane05@gmail.com",
+  gmail: "surajdeshmane02@gmail.com",
   // gitlab: "https://gitlab.com/",
   // facebook: "https://www.facebook.com/",
   //medium: "https://medium.com/@davidrakosi",
   stackoverflow: "https://stackoverflow.com/users/15059185/suraj-deshmane",
-  instagram: "https://www.instagram.com/__suraj51__",
-  twitter: "https://twitter.com/SurajDeshmane13",
+  // instagram: "https://www.instagram.com/__suraj-codes__",
+  // twitter: "https://twitter.com/SurajDeshmane13",
   display: true, // Set true to display this section, defaults to false
 };
 
@@ -61,10 +62,10 @@ https://fontawesome.com/icons?d=gallery */
       skillName: "css3",
       fontAwesomeClassname: "fab fa-css3-alt",
     },
-    {
-      skillName: "sass",
-      fontAwesomeClassname: "fab fa-sass",
-    },
+    // {
+    //   skillName: "sass",
+    //   fontAwesomeClassname: "fab fa-sass",
+    // },
     {
       skillName: "JavaScript",
       fontAwesomeClassname: "fab fa-js",
@@ -78,18 +79,18 @@ https://fontawesome.com/icons?d=gallery */
       fontAwesomeClassname: "fab fa-node",
     },
 
-    {
-      skillName: "npm",
-      fontAwesomeClassname: "fab fa-npm",
-    },
+    // {
+    //   skillName: "npm",
+    //   fontAwesomeClassname: "fab fa-npm",
+    // },
     {
       skillName: "MongoDB",
       fontAwesomeClassname: "fas fa-database",
     },
-    {
-      skillName: "firebase",
-      fontAwesomeClassname: "fas fa-fire",
-    },
+    // {
+    //   skillName: "firebase",
+    //   fontAwesomeClassname: "fas fa-fire",
+    // },
   ],
   display: true, // Set false to hide this section, defaults to true
 };
@@ -102,9 +103,18 @@ const educationInfo = {
     {
       schoolName:
         "JSPM's Jayawantrao Sawant Polytechnic, Hadapsar, Pune-411028",
-      //logo: require("./assets/images/harvardLogo.png"),
+      logo: require("./assets/images/jspm.png"),
       subHeader: "Diploma in Computer Engineering",
-      duration: "August 2018 - present",
+      duration: "August 2018 - August 2021",
+      //desc: "Participated in the research of XXX and published 3 papers.",
+      // descBullets: ["Lorem ipsum dolor sit amet, consectetur adipiscing elit"],
+    },
+    {
+      schoolName:
+        "VOGCE, Aghai, Shahapur, Mumbai",
+      logo: require("./assets/images/vogce.png"),
+      subHeader: "Bachelor of engineering in Computer Engineering",
+      duration: "August 2021 - August 2022  (Drop-out)",
       //desc: "Participated in the research of XXX and published 3 papers.",
       // descBullets: ["Lorem ipsum dolor sit amet, consectetur adipiscing elit"],
     },
@@ -118,7 +128,7 @@ const techStack = {
   experience: [
     {
       Stack: "Frontend / Design", //Insert stack or technology you have experience in
-      progressPercentage: "80%", //Insert relative proficiency in percentage
+      progressPercentage: "90%", //Insert relative proficiency in percentage
     },
     {
       Stack: "Backend",
@@ -126,7 +136,7 @@ const techStack = {
     },
     {
       Stack: "Programming",
-      progressPercentage: "80%",
+      progressPercentage: "85%",
     },
   ],
   displayCodersrank: true, // Set true to display codersrank badges section need to changes your username in src/containers/skillProgress/skillProgress.js:17:62, defaults to false
@@ -135,37 +145,41 @@ const techStack = {
 // Work experience section
 
 const workExperiences = {
-  display: false, //Set it to true to show workExperiences Section
+  display: true, //Set it to true to show workExperiences Section
   experience: [
     {
-      role: "Software Engineer",
-      company: "Clever Programmer",
-      companylogo: require("./assets/images/cpLogo.png"),
-      date: "September 2020 – Present",
-      desc: "Changing lives of developers one line of code at a time.",
+      role: "Frontend Developer",
+      company: "Pivotchain Solutions",
+      companylogo: require("./assets/images/pivotchain.png"),
+      date: "September 2021 – Present",
+      desc: "Developing & Maintaining Dashboard UI's for AI products.",
       descBullets: [
-        "Custom building applications",
-        "Coaching",
-        "Streaming live on YouTube",
-        "Creating tutorials",
+        "Frontend development",
+        "Backend Development using NodeJS & MongoDB",
+        "Mobile App development using React Native (Android)",
       ],
     },
     {
-      role: "Product Owner (PSD2)",
-      company: "Erste Bank",
-      companylogo: require("./assets/images/ersteLogo.jpg"),
-      date: "July 2019 – September 2020",
+      role: "Freelancer Javascript developer",
+      company: "Upwork / Fiverr / Freelancer",
+      companylogo: require("./assets/images/freelancer.png"),
+      date: "March 2022 – Present",
       desc:
-        "I lead software developers building the API for the bank in order to fulfil the PSD2 regulation requirements.",
+        "Part time freelancing (after job hours) to face different challenges for every client",
+      descBullets: [
+        "Worked with international clients (UAE, USA) on developing websites using ReactJS & TailwindCSS",
+        " Build android apps using React Native from Figma designs",
+        "Improved SEO of websites for higher ranking on search engins"
+      ]
     },
-    {
-      role: "Junior Information Security & Systems Representative",
-      company: "Vodafone",
-      companylogo: require("./assets/images/vodafoneLogo.png"),
-      date: "November 2018 – July 2019",
-      desc:
-        "I've conducted internal audit making sure the organization is compliant with the GDPR.",
-    },
+    // {
+    //   role: "Junior Information Security & Systems Representative",
+    //   company: "Vodafone",
+    //   companylogo: require("./assets/images/vodafoneLogo.png"),
+    //   date: "November 2018 – July 2019",
+    //   desc:
+    //     "I've conducted internal audit making sure the organization is compliant with the GDPR.",
+    // },
   ],
 };
 
@@ -174,7 +188,7 @@ To know how to get github key look at readme.md */
 
 const openSource = {
   githubConvertedToken: process.env.REACT_APP_GITHUB_TOKEN,
-  githubUserName: "Suraj51", // Change to your github username to view your profile in Contact Section.
+  githubUserName: "suraj-codes", // Change to your github username to view your profile in Contact Section.
   showGithubProfile: "true", // Set true or false to show Contact profile using Github, defaults to true
   display: false, // Set false to hide this section, defaults to true
 };
@@ -260,13 +274,69 @@ const bigProjects = {
     },
     {
       image:
-        "https://lh3.googleusercontent.com/proxy/6-5vlQdyxOSfR7ZUTiV3_X327og8bG0f-MrDA74v2Hpr1JTQ9yTgZNqQLZSMPztVytGcSw6wzmen_ISCt_HtfBadNgi8yTk",
+        "https://assets.stickpng.com/images/5b06c1a5fad1cae04539afe1.png",
       projectName: "Notes Using API",
       projectDesc: "Notes App with Node.js,Express.js,MongoDB",
       footerLink: [
         {
           name: "Visit Website",
           url: "https://noteapisuraj.herokuapp.com/",
+        },
+      ],
+    },
+    {
+      image:
+        "https://pngimg.com/uploads/cv/cv_PNG18.png",
+      projectName: "Resume Builder",
+      projectDesc: "Resume Builder With 9 Templates with React Redux",
+      footerLink: [
+        {
+          name: "Visit Website",
+          url: "https://surajcodesresumebuilder.netlify.app/",
+        },
+      ],
+    },{
+      image:
+        "https://play-lh.googleusercontent.com/FXOx2cmqcNdjcm5f008oI9Q9y2GWa4VRqqw-RoKEC_-4q7YjtyV5-_crqdPFe_-LU61U",
+      projectName: "Crypto Tracker",
+      projectDesc: "React Native Crypto Tracker using Class Components, Redux and Coinmarketcap API",
+      footerLink: [
+        {
+          name: "Source Code",
+          url: "https://github.com/suraj-codes/RN-Crypto-Tracker",
+        },
+      ],
+    },{
+      image:
+        "https://play-lh.googleusercontent.com/8t6U6HGuMnP1DAJYpb4U_fEwVA7fgaOBJYRyfPHM5OLZllGj-8tsmJhu6Y4ikMrGpZg",
+      projectName: "Web Scraper",
+      projectDesc: "Python Internshala web scrapper, Scrapped Over 11000+ Internships and stored in MongoDB",
+      footerLink: [
+        {
+          name: "Source Code",
+          url: "https://github.com/suraj-codes/Internshala-Scrapper",
+        },
+      ],
+    },{
+      image:
+        "https://www.freepnglogos.com/uploads/spotify-logo-png/file-spotify-logo-png-4.png",
+      projectName: "Spotify Clone",
+      projectDesc: "React Native Spotify Clone with MockData",
+      footerLink: [
+        {
+          name: "Source Code",
+          url: "https://github.com/suraj-codes/RN-Spotify",
+        },
+      ],
+    },{
+      image:
+        "https://cdn-icons-png.flaticon.com/512/25/25231.png",
+      projectName: "See More Projects",
+      projectDesc: "30 + more projects from my collection. Click to see more.",
+      footerLink: [
+        {
+          name: "Github",
+          url: "https://github.com/suraj-codes",
         },
       ],
     },
@@ -390,7 +460,7 @@ const contactInfo = {
   subtitle:
     "Discuss a project or just want to say hi? My Inbox is open for all.",
   number: "(+91)9325834829",
-  email_address: "surajdeshmane05@gmail.com",
+  email_address: "surajdeshmane02@gmail.com",
 };
 
 // Twitter Section
