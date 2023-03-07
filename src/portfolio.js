@@ -344,6 +344,99 @@ const bigProjects = {
   display: true, // Set false to hide this section, defaults to true
 };
 
+const freelancingProjects = {
+  title: "Freelancing Projects",
+  subtitle: "Some projects i worked on as a freelance developer",
+  projects: [
+    {
+      image:
+        "https://play-lh.googleusercontent.com/5wNQCD0XEdRbXXCSw8sib3TDB8bsG2Se6AvpntFVh8T8uaHgD8iPk6ySVoONGGNTrm0=w240-h480-rw",
+      projectName: "CoalMantra app",
+      projectDesc: "CoalMantra app using React Native",
+      footerLink: [
+        {
+          name: "Go to Playstore",
+          url: "https://play.google.com/store/apps/details?id=com.coalmantra.coalmantra&hl=en_IN&gl=US",
+        },
+        //  you can add extra buttons here.
+      ],
+    },
+    {
+      image:
+        "https://www.mipa.mu/assets/images/mipa-logo.jpg",
+      projectName: "MIPA app",
+      projectDesc: "Mipa app using React Native. (In development)",
+      footerLink: [
+        {
+          name: "Visit Website",
+          url: "https://www.mipa.mu/",
+        },
+      ],
+    },
+
+    {
+      image:
+        "https://houseofwisdom.ae/static/media/logo.26fdaa2136d1b51e5e9b60346a0f6be4.svg",
+      projectName: "House Of Wisdom",
+      projectDesc: "Sharjah’s new iconic cultural hub website build using ReactJS & TailwindCSS",
+      footerLink: [
+        {
+          name: "Visit Website",
+          url: "https://houseofwisdom.ae/",
+        },
+      ],
+    },
+    {
+      image:
+        "https://houseofwisdom.ae/static/media/logo.26fdaa2136d1b51e5e9b60346a0f6be4.svg",
+      projectName: "House Of Wisdom Ticket Verify App",
+      projectDesc: "House Of Wisdom Ticket Verify App using React Native with QR code scanning functionality",
+      footerLink: [
+        {
+          name: "Visit Website",
+          url: "https://houseofwisdom.ae/",
+        },
+      ],
+    },
+    {
+      image: "https://discovershurooq.ae/static/media/logo2.aae2568b.png",
+      projectName: "Discover Shurooq website",
+      projectDesc: "Builded Discover Shurooq website using ReactJS",
+      footerLink: [
+        {
+          name: "Visit Website",
+          url: "https://discovershurooq.ae/",
+        },
+      ],
+    },
+    {
+      image:
+        "https://marketplace.kunstmatrix.com/themes/kunstmatrix/images/logo_kunstmatrix_white.svg",
+      projectName: "Kunstmatrix - Marketplace",
+      projectDesc: "Explore digital 3D Interior spaces for KUNSTMATRIX tools.",
+      footerLink: [
+        {
+          name: "Visit Website",
+          url: "https://marketplace.kunstmatrix.com/3d-spaces",
+        },
+      ],
+    },
+     {
+      image:
+        "https://static.wixstatic.com/media/28cd39_122e8004fb8546b394aedec6daae53dd~mv2.png/v1/fill/w_196,h_110,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/DR%20C%20on%20White.png",
+      projectName: "Dialed Resistance mobile app",
+      projectDesc: "Builded Dialed Resistance mobile app using React Native",
+      footerLink: [
+        {
+          name: "Visit Website",
+          url: "https://www.dialedresistance.com/",
+        },
+      ],
+    },
+  ],
+  display: true, // Set false to hide this section, defaults to true
+};
+
 // Achievement Section
 // Include certificates, talks etc
 
@@ -486,4 +579,5 @@ export {
   podcastSection,
   contactInfo,
   twitterDetails,
+  freelancingProjects
 };
